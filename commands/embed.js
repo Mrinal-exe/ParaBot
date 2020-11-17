@@ -8,9 +8,9 @@ let content = args.slice(2).join(' ')
 
 const embedname = new Discord.MessageEmbed()
 .setDescription(content)
-.setColor('0x#00ffff')
-.setFooter(`REQUESTED BY ${message.author.tag}`,`${message.author.displayAvatarURL({dynamic : true})}`)
-.setTimestamp();
+.setColor('RANDOM')
+
+
 message.channel.send(embedname)
 }
 
