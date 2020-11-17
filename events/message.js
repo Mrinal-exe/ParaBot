@@ -6,7 +6,7 @@ module.exports = async(bot,message)=>{
     if(message.author.bot) return;
     if(message.channel.type === "dm") return;  
 
-  if((message.content === "<@775654294242066434>") || (message.content === "<@!775654294242066434>")){
+  if((message.content === "<@775654294242066434>")){
     message.channel.send(`My Prefix is \`${config.prefix}\``)
   }
 
