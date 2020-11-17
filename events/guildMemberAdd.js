@@ -5,9 +5,9 @@ welcomeCanvas = new canvas.Welcome();
 
 module.exports = async(bot,member)=>{
 
-    if(member.guild.id != '750742343870709794') return;
+    if(member.guild.id != '763757225243705356') return;
    
-    const WELCOMECHAN = member.guild.channels.cache.get('776058851802873868');
+    const WELCOMECHAN = member.guild.channels.cache.get('763764809631137842');
      
     if(!WELCOMECHAN) return console.log(`WELCOME CHANNEL NOT FOUND !`);
     
