@@ -6,12 +6,12 @@ bot.commands = new Discord.Collection();
 const mongoose = require('mongoose');
 
 bot.login(config.token);
-mongoose.connect('mongodb+srv://Hasshhh:qwVHzkzdFh15sr7H@meracluster.fupgy.mongodb.net/test/Data', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useFindAndModify: false,
-  useCreateIndex: true
-}).then(console.log(`Connected To MongoDB !`));
+//mongoose.connect('mongodb+srv://Hasshhh:qwVHzkzdFh15sr7H@meracluster.fupgy.mongodb.net/test/Data', {
+  //useNewUrlParser: true,
+  //useUnifiedTopology: true,
+//useFindAndModify: false,
+  //useCreateIndex: true
+//}).then(console.log(`Connected To MongoDB !`));
 
 //COMMAND HANDLER 
 
