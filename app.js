@@ -6,12 +6,14 @@ bot.commands = new Discord.Collection();
 const mongoose = require('mongoose');
 
 bot.login(config.token);
+
 mongoose.connect('mongodb+srv://Hasshhh:harshsingh@meracluster.fupgy.mongodb.net/local?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
   useCreateIndex: true
 }).then(console.log(`Connected To MongoDB !`));
+
 
 //COMMAND HANDLER 
 
