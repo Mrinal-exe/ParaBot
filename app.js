@@ -6,7 +6,7 @@ bot.commands = new Discord.Collection();
 const mongoose = require('mongoose');
 
 bot.login(config.token);
-mongoose.connect('mongodb+srv://Hasshhh:qwVHzkzdFh15sr7H@meracluster.fupgy.mongodb.net/test/Data', {
+mongoose.connect('mongodb+srv://Hasshhh:harshsingh@meracluster.fupgy.mongodb.net/local?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
