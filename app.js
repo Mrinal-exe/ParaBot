@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 
 bot.login(config.token);
 
-mongoose.connect('mongodb+srv://Hasshhh:harshsingh@meracluster.fupgy.mongodb.net/local?retryWrites=true&w=majority', {
+mongoose.connect('your mongo url', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
